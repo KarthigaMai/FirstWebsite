@@ -1,0 +1,67 @@
+nav
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+	height:75px;
+}
+nav>p{
+	display:inline-block;
+	color:grey;
+	padding-top:15px;
+
+}
+nav>h1
+{
+	font-size:25px;
+	padding-top:10px;
+}
+*
+{
+	padding:0px;
+	margin:0px;
+}
+nav>p:hover{
+	color:white;
+	cursor:pointer;
+}
+div
+{
+	display:inline-block;
+	height:250px;
+	width:225px;
+	border-radius:1px;
+	border-color: black;
+	border-style:solid;
+	margin:25px;
+	text-align:center;
+
+}
+button
+{
+    margin-top:8px;
+}
+div>button:hover
+{
+	background-color:orange;
+	cursor:pointer;
+}
+
+img
+{
+	height:175px;
+	width:inherit;
+}
+form
+{
+	background-color: black;
+	text-align:center;
+	color:white;
+}
+form>button
+{
+	background-color: yellow;
+	width:500px;
+	height:30px;
+
+}
